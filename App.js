@@ -29,6 +29,7 @@ export default function App() {
         value={nomeProd}
         onChangeText={(valor) => setNomeProd(valor)}
         keyboardAppearance='dark'
+        maxLength={20}
       />
       <TextInput
         placeholder="Digite o valor do Produto"
